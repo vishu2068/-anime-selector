@@ -1,1 +1,1 @@
-# -anime-selector
+# anime-selector
