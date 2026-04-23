@@ -2,12 +2,35 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="description" content="Anime Selector - Spin the wheel and discover your next anime instantly. Fun and easy anime picker.">
-<meta name="keywords" content="anime, anime selector, anime wheel, anime picker">
-<title>Anime Selector | Pick Your Next Anime</title>
+
+  <title>Anime Selector | Pick Your Next Anime</title>
+
+  <meta name="description" content="Find your next anime using Anime Selector. Spin the wheel and discover anime by genre like action, romance, fantasy and more.">
+  <meta name="keywords" content="anime, anime selector, anime picker, anime wheel, best anime finder">
+
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<!-- SEO CONTENT (IMPORTANT FOR GOOGLE) -->
+<div style="padding:20px; max-width:800px; margin:auto; text-align:center;">
+  <h1>🎌 Anime Selector - Find Your Next Anime</h1>
+  <p>
+    Anime Selector is a fun tool that helps you discover new anime instantly. 
+    Choose from categories like Action, Romance, Comedy, Fantasy, Slice of Life, and Psychological. 
+    Spin the wheel and get your next anime recommendation in seconds!
+  </p>
+
+  <h2>Popular Anime Categories</h2>
+  <ul style="list-style:none; padding:0;">
+    <li>🔥 Action Anime</li>
+    <li>❤️ Romance Anime</li>
+    <li>😂 Comedy Anime</li>
+    <li>✨ Fantasy Anime</li>
+    <li>🌸 Slice of Life Anime</li>
+    <li>🧠 Psychological Anime</li>
+  </ul>
+</div>
 
 <!-- LANDING -->
 <div id="landingPage">
@@ -29,30 +52,25 @@
   </div>
 </div>
 
-
 <!-- MAIN -->
 <div id="mainApp" style="display:none;">
   <div class="container">
 
-    <!-- WHEEL -->
     <div class="wheel-section">
-      
-      <h2>🎡 Wheel</h2>
+      <h2>🎡 Anime Wheel</h2>
       <h3 id="result">🎯 Result: -</h3>
       <canvas id="wheelCanvas" width="300" height="300"></canvas>
       <button id="spinBtn">Spin</button>
       <button onclick="goToCategory()">⬅ Back to Category</button>
     </div>
 
-    <!-- ACTIVE -->
     <div class="active-section">
-      <h2>⚙️ Current 8</h2>
+      <h2>⚙️ Current Anime List</h2>
       <div id="activeList"></div>
     </div>
 
-    <!-- CHECKLIST -->
     <div class="checklist-section">
-      <h2>✅ Checklist</h2>
+      <h2>✅ Watched Anime Checklist</h2>
       <div id="checklist"></div>
     </div>
 
