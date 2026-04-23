@@ -4,39 +4,55 @@ const animeCategories = {
   Action: [
     "Naruto", "Attack on Titan", "Jujutsu Kaisen",
     "Demon Slayer", "Chainsaw Man", "Fire Force",
-    "Tokyo Revengers", "Black Clover", "Bleach"
+    "Tokyo Revengers", "Black Clover", "Bleach","one punch man","my hero academia","vinland saga","mob psycho"
+    ,"god of high schcool","dororo","blue exorcist","noragami","full metalalchemist:brotherhood"
+    ,"mob-psycho 100","akame ga kill!","hunter x hunter","dragon ball Z","dragaon ball super"
+   ,"kaiju no.8","fate/zero","parasyte: the maxim","cyberpunk: edgerunners"
+  
   ],
 
   Romance: [
     "Tonikaku Kawaii", "My Dress-Up Darling",
     "The Angel Next Door Spoils Me Rotten",
     "My Tiny Senpai", "Darling in the Franxx",
-    "Horimiya", "Kimi ni Todoke"
+    "Horimiya", "Kimi ni Todoke","golden time","clannad","Ao Haru Ride","toradora!","your lie in april"
+    ,"rascal does not dream of bunny girl senpai","domestic girlfriend","plastic memories"," my little monster"
+    ,"relife","orange","snow white with the red hair","boarding school juliet","the girl i like forget her glasses"
+     ,"love chunibyo and other delusions","teasing master takagi san","shikimori isn't just cutie"
+     ,"wotakoi:love is hard for otaku","say I LOVE YOU","tsurezure children","kubo wouldn't let me be invisible"
+    ,"just because","lovely complex","3d kanojo : real girl","nisekoi"
+      ,"ranma1/2","tomo chan is a girl",""
   ],
 
   Comedy: [
     "KonoSuba", "Gintama",
     "The Disastrous Life of Saiki K",
     "Grand Blue", "Nichijou",
-    "Asobi Asobase"
+    "Asobi Asobase" ,"daily life of high school boys","the devil is a part timer","spy X family"
+    ,"prison school","sakamoto days","AHO-girl","My bride is a mermaid","school rumble","D-frog"
+     ,"toilet bound hanako kun","uncle from another world","skett dance"
+     ,"tanaka kun is always list less","joshiraku","kamisama kiss"
+
   ],
 
-  Thriller: [
-    "Death Note", "Erased",
-    "Tokyo Ghoul", "Parasyte",
-    "Another", "Monster"
-  ],
 
   Fantasy: [
     "Solo Leveling", "Re:Zero",
     "Sword Art Online", "No Game No Life",
-    "Overlord", "Magi"
+    "Overlord", "Magi","friren:beyond journey's end","mushoku tensie-jobless reincarnation","log horizon"
+    ,"made in abyss","fairytail","the seven deadly sins","spice and wolf","the eminence of shadow"
+    ,"yona of the dawn","the faraway paladin","wiseman's grandchild","childrens of the whale"
+    ,"to your eternity","the ranking of kings","inoyasha","the ancient magus bride","the rising of the shield hereo"
   ],
 
   SliceOfLife: [
     "Spy x Family", "Barakamon",
     "Clannad", "Usagi Drop",
-    "March Comes in Like a Lion"
+    "March Comes in Like a Lion","my roomate is cat","the girl i like forget her glasses"
+    ,"hyouka","the maid i hired recently is mysterious","dangers in my heart","i got married to a girl i hate most in my class"
+    ,"more than married couple but not married","school babysitters","the girl downstairs"
+    ,"engaged to the unidentified","my love story with yamada kun at lvl 999","the shiunji family children"
+    ,"you are MS servant","buddy daddies","is the order of rabbit"
   ],
 
   Psychological: [
@@ -50,6 +66,11 @@ const animeCategories = {
     "Welcome to the NHK",
     "Future Diary",
     "Kaiji"
+    ,"terrror in resonance","91 days","angels of death","classroom of elite","ghost in the shell"
+    ,"junji ito collection ","summer time rendering","battle game in 5 seconds","the promised neverland"
+    ,"tomodachi game","steins;gate","AJINN-demi human","B-the beginning","shiki","akira","paparika"
+    ,"future dairies","tokyo ghoul","banana fish","psycho-pass"
+    ,"devilman-crybaby","higurashi-when they cry","erased"
   ]
 };
 
@@ -256,3 +277,4 @@ function startApp(category) {
 
   document.getElementById("spinBtn").addEventListener("click", spinWheel);
 }
+
