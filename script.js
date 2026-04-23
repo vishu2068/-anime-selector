@@ -21,7 +21,7 @@ const animeCategories = {
      ,"love chunibyo and other delusions","teasing master takagi san","shikimori isn't just cutie"
      ,"wotakoi:love is hard for otaku","say I LOVE YOU","tsurezure children","kubo wouldn't let me be invisible"
     ,"just because","lovely complex","3d kanojo : real girl","nisekoi"
-      ,"ranma1/2","tomo chan is a girl",""
+      ,"ranma1/2","tomo chan is a girl"
   ],
 
   Comedy: [
@@ -258,9 +258,9 @@ function spinWheel() {
 // 🟢 NAVIGATION
 function goToCategory() {
   document.getElementById("landingPage").style.display = "none";
+  document.getElementById("mainApp").style.display = "none"; // 🔥 ye missing tha
   document.getElementById("categoryPage").style.display = "block";
 }
-
 // 🚀 START APP WITH CATEGORY
 function startApp(category) {
   document.getElementById("categoryPage").style.display = "none";
@@ -277,4 +277,3 @@ function startApp(category) {
 
   document.getElementById("spinBtn").addEventListener("click", spinWheel);
 }
-
